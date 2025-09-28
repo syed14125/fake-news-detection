@@ -1,3 +1,6 @@
+pip>=23.2
+setuptools>=65.5
+wheel>=0.40
 tensorflow>=2.20.0
 tf-keras>=2.11.0
 transformers==4.30.2

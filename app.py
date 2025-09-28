@@ -5,8 +5,8 @@ from transformers import TFDistilBertForSequenceClassification, DistilBertTokeni
 # ===============================
 # Load Model and Tokenizer
 # ===============================
-from transformers import TFBertForSequenceClassification, BertTokenizer
-
+from transformers import TFDistilBertForSequenceClassification, DistilBertTokenizer
+import tf_keras as keras
 MODEL_PATH ="model"
 
 # Load model and tokenizer

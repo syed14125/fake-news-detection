@@ -7,7 +7,7 @@ from transformers import TFDistilBertForSequenceClassification, DistilBertTokeni
 # ===============================
 from transformers import TFBertForSequenceClassification, BertTokenizer
 
-MODEL_PATH = r"C:\Users\SONIC LAPTOPS\Desktop\all data\fake news -20250927T194318Z-1-001\model"
+MODEL_PATH ="model"
 
 # Load model and tokenizer
 tokenizer = BertTokenizer.from_pretrained(MODEL_PATH)
